@@ -1,3 +1,8 @@
+![Star Badge](https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99)
+[![View Repositories](https://img.shields.io/badge/View-My_Repositories-blue?logo=GitHub)](https://github.com/mrafraim?tab=repositories)
+[![View My Profile](https://img.shields.io/badge/View-My_Profile-green?logo=GitHub)](https://github.com/mrafraim) 
+
+
 # Global-Superstore-Sales-Analysis-Forecasting
 ### *Time-Series Analytics • SARIMA Modeling • Business Insights*
 
@@ -23,7 +28,7 @@ Retail Analytics · E-commerce
 
 ### **Dataset Source**
 
-Global Superstore Dataset (Kaggle)
+[Kaggle – Global Superstore Sales Data](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting/data)
 
 ### **Dataset Size**
 
@@ -97,9 +102,9 @@ A retail transactional dataset including order details, customer information, pr
 ### Example EDA Visuals (Insert Plots Here)
 
 ```markdown
-![Monthly Sales Trend](images/monthly_sales_trend.png)
-![Region-wise Sales](images/region_sales.png)
-![Category Revenue](images/category_revenue.png)
+![Daily Sales Trend](images/Daily Sales Trend.png)
+![Monthly Sales Trend](images/Monthly Sales Trend.png)
+![Region-wise Sales](images/State Level Sales.png)
 ```
 
 ---
@@ -159,6 +164,10 @@ auto_model = pm.auto_arima(
 * **RMSE:** ~853
 * **MAPE:** ~126% (Not reliable)
 
+```markdown
+![Sarima Fitted vs Actual (Daily)](images/Sarima Fitted vs Actual (Daily).png)
+```
+
 #### **Monthly Forecast (SARIMA)**
 
 * Excellent trend + seasonal learning
@@ -166,10 +175,9 @@ auto_model = pm.auto_arima(
 * **RMSE:** ~13,436
 * **MAPE:** ~19% (Strong performance)
 
-### Visualization (Insert Plot)
 
 ```markdown
-![SARIMA Fitted vs Actual - Monthly](images/sarima_monthly_fit.png)
+![Sarima Fitted vs Actual (Monthly)](images/Sarima Fitted vs Actual (Monthly).png)
 ```
 
 ---
