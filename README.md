@@ -99,13 +99,13 @@ A retail transactional dataset including order details, customer information, pr
 * **Trend:** Slight upward trend from 2015 to 2018.
 * **Cities:** NYC & LA generate highest sales.
 
-### Example EDA Visuals (Insert Plots Here)
+### Few EDA Visuals
 
-```markdown
-![Daily Sales Trend](images/Daily Sales Trend.png)
-![Monthly Sales Trend](images/Monthly Sales Trend.png)
-![Region-wise Sales](images/State Level Sales.png)
-```
+
+![Daily Sales Trend](images/daily_sales_trend.png)
+![Monthly Sales Trend](images/monthly_sales_trend.png)
+![Region-wise Sales](images/state_level_sales.png)
+![Segment-wise Sales](images/segment_wise_sales.png)
 
 ---
 
@@ -164,9 +164,9 @@ auto_model = pm.auto_arima(
 * **RMSE:** ~853
 * **MAPE:** ~126% (Not reliable)
 
-```markdown
-![Sarima Fitted vs Actual (Daily)](images/Sarima Fitted vs Actual (Daily).png)
-```
+
+![Sarima Fitted vs Actual (Daily)](images/sarima_fit_daily.png)
+
 
 #### **Monthly Forecast (SARIMA)**
 
@@ -176,9 +176,8 @@ auto_model = pm.auto_arima(
 * **MAPE:** ~19% (Strong performance)
 
 
-```markdown
-![Sarima Fitted vs Actual (Monthly)](images/Sarima Fitted vs Actual (Monthly).png)
-```
+![Sarima Fitted vs Actual (Monthly)](images/sarima_fit_monthly.png)
+
 
 ---
 
