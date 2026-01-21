@@ -3,7 +3,7 @@
 [![View My Profile](https://img.shields.io/badge/View-My_Profile-green?logo=GitHub)](https://github.com/mrafraim) 
 
 
-# Global-Superstore-Sales-Analysis-Forecasting
+# GlobalSuperstore: Sales Analysis & Forecasting
 ### *Time-Series Analytics • SARIMA Modeling • Business Insights*
 
 ---
