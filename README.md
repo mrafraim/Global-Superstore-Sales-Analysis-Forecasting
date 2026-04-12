@@ -6,7 +6,6 @@
 # GlobalSuperstore: Sales Analysis & Forecasting
 ### *Time-Series Analytics • SARIMA Modeling • Business Insights*
 
----
 
 ## **1. Project Overview**
 
@@ -36,7 +35,6 @@ Retail Analytics · E-commerce
 * **Features:** 18
 * **Time Span:** 2015 – 2018 (Daily)
 
----
 
 ## **2. Data Understanding**
 
@@ -63,7 +61,6 @@ A retail transactional dataset including order details, customer information, pr
 * Sales distribution highly skewed with outliers.
 * Strong temporal patterns visible.
 
----
 
 ## **3. Data Preparation**
 
@@ -86,7 +83,6 @@ A retail transactional dataset including order details, customer information, pr
 * Monthly sales series created for stable modeling
 * Additional time-indexed features for analysis
 
----
 
 ## **4. Exploratory Data Analysis (EDA)**
 
@@ -107,7 +103,6 @@ A retail transactional dataset including order details, customer information, pr
 ![Region-wise Sales](images/state_level_sales.png)
 ![Segment-wise Sales](images/segment_wise_sales.png)
 
----
 
 ## **5. Statistical & Diagnostic Analysis**
 
@@ -120,7 +115,6 @@ A retail transactional dataset including order details, customer information, pr
   * Strong yearly seasonality
   * Noise stabilizes with monthly aggregation
 
----
 
 ## **6. Forecasting Model Development**
 
@@ -179,8 +173,6 @@ auto_model = pm.auto_arima(
 ![Sarima Fitted vs Actual (Monthly)](images/sarima_fit_monthly.png)
 
 
----
-
 ## **7. Key Findings & Insights**
 
 ### Analytical Insights
@@ -197,8 +189,6 @@ auto_model = pm.auto_arima(
 * Monthly SARIMA model is **stable, interpretable, and practical**
 * Monthly model can support budgeting, staffing, and procurement decisions
 
----
-
 ## **8. Recommendations**
 
 * Use **monthly forecasting** for financial and operational planning.
@@ -207,7 +197,6 @@ auto_model = pm.auto_arima(
 * Launch campaigns for underperforming segments (Home Office).
 * Consider external factors (holidays, promotions) for improved daily modeling.
 
----
 
 ## **9. Conclusion**
 
@@ -215,7 +204,6 @@ auto_model = pm.auto_arima(
 * Monthly SARIMA forecasts proved far more accurate than daily models due to reduced noise.
 * Insights from product, region, and segment analysis can directly inform strategic decisions.
 
----
 
 ## **10. Appendix**
 
@@ -226,4 +214,7 @@ auto_model = pm.auto_arima(
 * Additional EDA visualizations
 
 ---
+<p style="text-align:center; color:skyblue; font-size:18px;">
+© 2026 Mostafizur Rahman
+</p>
 
